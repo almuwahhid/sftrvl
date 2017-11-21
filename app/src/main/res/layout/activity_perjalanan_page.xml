@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.safetravel.com.safetravel.Pages.PerjalananPage">
+    <android.support.design.widget.TabLayout
+        android:id="@+id/perjalanan_tablayout"
+        android:layout_marginLeft="@dimen/padding_default"
+        android:layout_marginRight="@dimen/padding_default"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:minHeight="@dimen/bar_height"
+        app:tabMaxWidth="0dp"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabIndicatorHeight="3dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_gravity="bottom"
+        android:background="@color/icon"
+        android:orientation="vertical">
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/perjalanan_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/perizinan_detail_tablayout" />
+</LinearLayout>

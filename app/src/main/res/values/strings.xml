@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SafeTravel</string>
+    <string name="perjalanan_pendaftaran_tips">Daftarkan perjalanan Anda, agar kami dapat membantu Anda, apabila terjadi hal hal yang tidak diinginkan
+            \n\nBantuan yang diberikan oleh pemerintah RI sesuai dengan peraturan perundang - undangan yang berlaku</string>
+    <string name="perjalanan_pendaftaran_info">Dapatkan poin dengan mendaftarkan perjalanan Anda. Semakin banyak poin Anda, Anda berkesempatan memperoleh keuntunan dari kami</string>
+
+    <string name="pendaftaran">Pendaftaran</string>
+    <string name="riwayat">Riwayat</string>
+
+    <string name="pendaftaran_perjalanan">Pendaftaran Perjalanan</string>
+
+    <string name="perjalanan_sementara">Perjalanan Sementara</string>
+    <string name="perjalanan_sementara_info">Perjalanan kurang dari 6 bulan</string>
+
+    <string name="perjalanan_menetap">Perjalanan Menetap</string>
+    <string name="perjalanan_menetap_info">Perjalanan lebih dari 6 bulan</string>
+
+</resources>
