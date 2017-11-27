@@ -21,7 +21,22 @@
         <activity android:name=".Fragment.PerjalananRiwayat" />
         <activity android:name=".Pages.PerjalananSementara" />
         <activity android:name=".Adapter.TujuanPerjalananAdapter" />
-        <activity android:name=".Adapter.AnggotaPerjalananAdapter"></activity>
+        <activity android:name=".Adapter.AnggotaPerjalananAdapter" />
+        <activity android:name=".Pages.PerjalananMenetap" />
+        <activity android:name=".Pages.CheckInPage" />
+        <activity android:name=".Pages.ProfilPage" />
+        <activity android:name=".Adapter.InfoStatusProfil" />
+        <activity android:name=".Pages.EditProfilPage" />
+        <activity android:name=".Pages.CheckinPage" />
+        <activity android:name=".Pages.TambahTempatWisata" />
+        <activity android:name=".Pages.InfoDaruratPage" />
+        <activity android:name=".Pages.InfoDaruratLokasi" />
+        <activity android:name=".Pages.LiniMasaPages" />
+        <activity android:name=".Adapter.LiniMasaAdapter" />
+        <activity android:name=".Pages.InfoDaruratPhoto" />
+        <activity android:name=".Pages.InfoDaruratVideo" />
+        <activity android:name=".Pages.InfoDaruratTelp" />
+        <activity android:name=".Adapter.DaruratTelpAdapter"></activity>
     </application>
 
 </manifest>

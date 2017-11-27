@@ -14,42 +14,6 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <RelativeLayout
-                android:id="@+id/main_infonegara"
-                style="@style/LayoutItem"
-                android:layout_height="@dimen/item_height"
-                android:layout_width="match_parent">
-                <TextView
-                    style="@style/TextInItem"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Info Negara"/>
-            </RelativeLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0.2dp"
-                android:layout_gravity="bottom"
-                android:background="@color/icon"
-                android:orientation="vertical">
-            </LinearLayout>
-            <RelativeLayout
-                android:id="@+id/main_pelayanan"
-                style="@style/LayoutItem"
-                android:layout_height="@dimen/item_height"
-                android:layout_width="match_parent">
-                <TextView
-                    style="@style/TextInItem"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Pelayanan"/>
-            </RelativeLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0.2dp"
-                android:layout_gravity="bottom"
-                android:background="@color/icon"
-                android:orientation="vertical">
-            </LinearLayout>
-            <RelativeLayout
                 android:id="@+id/main_perjalanan"
                 style="@style/LayoutItem"
                 android:layout_height="@dimen/item_height"
@@ -59,42 +23,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Perjalanan"/>
-            </RelativeLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0.2dp"
-                android:layout_gravity="bottom"
-                android:background="@color/icon"
-                android:orientation="vertical">
-            </LinearLayout>
-            <RelativeLayout
-                android:id="@+id/main_himbauan"
-                style="@style/LayoutItem"
-                android:layout_height="@dimen/item_height"
-                android:layout_width="match_parent">
-                <TextView
-                    style="@style/TextInItem"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Himbauan"/>
-            </RelativeLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0.2dp"
-                android:layout_gravity="bottom"
-                android:background="@color/icon"
-                android:orientation="vertical">
-            </LinearLayout>
-            <RelativeLayout
-                android:id="@+id/main_asuransi"
-                style="@style/LayoutItem"
-                android:layout_height="@dimen/item_height"
-                android:layout_width="match_parent">
-                <TextView
-                    style="@style/TextInItem"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Asuransi"/>
             </RelativeLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -122,7 +50,7 @@
                 android:orientation="vertical">
             </LinearLayout>
             <RelativeLayout
-                android:id="@+id/main_checklist"
+                android:id="@+id/main_profil"
                 style="@style/LayoutItem"
                 android:layout_height="@dimen/item_height"
                 android:layout_width="match_parent">
@@ -130,7 +58,7 @@
                     style="@style/TextInItem"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Checklist"/>
+                    android:text="Profil"/>
             </RelativeLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -140,7 +68,7 @@
                 android:orientation="vertical">
             </LinearLayout>
             <RelativeLayout
-                android:id="@+id/main_tips"
+                android:id="@+id/main_tambahisata"
                 style="@style/LayoutItem"
                 android:layout_height="@dimen/item_height"
                 android:layout_width="match_parent">
@@ -148,25 +76,7 @@
                     style="@style/TextInItem"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tips"/>
-            </RelativeLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0.2dp"
-                android:layout_gravity="bottom"
-                android:background="@color/icon"
-                android:orientation="vertical">
-            </LinearLayout>
-            <RelativeLayout
-                android:id="@+id/main_sekitarsaya"
-                style="@style/LayoutItem"
-                android:layout_height="@dimen/item_height"
-                android:layout_width="match_parent">
-                <TextView
-                    style="@style/TextInItem"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Sekitar Saya"/>
+                    android:text="Tambah Wisata"/>
             </RelativeLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -194,7 +104,7 @@
                 android:orientation="vertical">
             </LinearLayout>
             <RelativeLayout
-                android:id="@+id/main_lainnya"
+                android:id="@+id/main_infodarurat"
                 style="@style/LayoutItem"
                 android:layout_height="@dimen/item_height"
                 android:layout_width="match_parent">
@@ -202,7 +112,7 @@
                     style="@style/TextInItem"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Lainnya"/>
+                    android:text="Info Darurat"/>
             </RelativeLayout>
             <LinearLayout
                 android:layout_width="match_parent"

@@ -13,11 +13,13 @@ import android.widget.RelativeLayout;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import layout.safetravel.com.safetravel.Pages.PerjalananMenetap;
 import layout.safetravel.com.safetravel.Pages.PerjalananSementara;
 import layout.safetravel.com.safetravel.R;
 
 public class PerjalananPendaftaran extends Fragment implements View.OnClickListener{
     @BindView(R.id.layout_perjalanan_sementara) protected RelativeLayout layout_perjalanan_sementara;
+    @BindView(R.id.layout_perjalanan_menetap) protected RelativeLayout layout_perjalanan_menetap;
 
     @Nullable
     @Override
@@ -26,6 +28,7 @@ public class PerjalananPendaftaran extends Fragment implements View.OnClickListe
         ButterKnife.bind(this, tampilan);
 
         layout_perjalanan_sementara.setOnClickListener(this);
+        layout_perjalanan_menetap.setOnClickListener(this);
 
         return tampilan;
     }
@@ -35,6 +38,9 @@ public class PerjalananPendaftaran extends Fragment implements View.OnClickListe
         switch (v.getId()){
             case R.id.layout_perjalanan_sementara:
                 startActivity(new Intent(getContext(), PerjalananSementara.class));
+                break;
+            case R.id.layout_perjalanan_menetap:
+                startActivity(new Intent(getContext(), PerjalananMenetap.class));
                 break;
         }
     }

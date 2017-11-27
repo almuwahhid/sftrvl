@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="layout.safetravel.com.safetravel.Adapter.DaruratTelpAdapter">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/margin_standard"
+        android:paddingRight="@dimen/margin_standard"
+        android:paddingTop="@dimen/margin_small"
+        android:paddingBottom="@dimen/margin_small"
+        android:background="@color/grey_500">
+        <TextView
+            style="@style/TextInItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KBRI Indoneia"/>
+    </LinearLayout>
+    <RelativeLayout
+        style="@style/LayoutItem"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:paddingLeft="@dimen/margin_standard"
+        android:paddingRight="@dimen/margin_standard">
+        <TextView
+            style="@style/TextInItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+62 812 90921 "/>
+        <LinearLayout
+            style="@style/LayoutItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_small"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@color/green_500"
+            android:orientation="horizontal">
+            <ImageView
+                android:tint="@color/white"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_phone_black_24dp"/>
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/margin_small"
+                style="@style/StandardText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panggil"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
