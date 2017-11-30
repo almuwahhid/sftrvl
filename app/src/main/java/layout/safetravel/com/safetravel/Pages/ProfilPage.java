@@ -21,6 +21,7 @@ public class ProfilPage extends AppCompatActivity implements View.OnClickListene
     @BindView(R.id.profil_rv) protected RecyclerView recycler_view;
     @BindView(R.id.profil_imgbtn_edit) protected ImageButton btn_edit_profil;
     @BindView(R.id.profil_relative_linimasa) protected RelativeLayout profil_relative_linimasa;
+    @BindView(R.id.profil_relative_infopoin) protected RelativeLayout profil_relative_infopoin;
     InfoStatusProfil infoStatusProfil;
 
     @Override
@@ -33,6 +34,7 @@ public class ProfilPage extends AppCompatActivity implements View.OnClickListene
 
         btn_edit_profil.setOnClickListener(this);
         profil_relative_linimasa.setOnClickListener(this);
+        profil_relative_infopoin.setOnClickListener(this);
     }
 
     private void setToolbar() {
@@ -56,6 +58,9 @@ public class ProfilPage extends AppCompatActivity implements View.OnClickListene
                 break;
             case R.id.profil_relative_linimasa:
                 startActivity(new Intent(ProfilPage.this, LiniMasaPages.class));
+                break;
+            case R.id.profil_relative_infopoin:
+                startActivity(new Intent(ProfilPage.this, InfoPoinPage.class));
                 break;
         }
     }

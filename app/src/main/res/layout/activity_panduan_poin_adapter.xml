@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bar_height"
+    tools:context="layout.safetravel.com.safetravel.Adapter.PanduanPoinAdapter">
+    <LinearLayout
+        style="@style/layout1"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/margin_medium"
+            android:tint="@color/yellow_500"
+            android:layout_height="@dimen/margin_medium"
+            android:src="@drawable/ic_star_black_24dp"/>
+        <LinearLayout
+            android:layout_marginLeft="@dimen/margin_standard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                style="@style/TextInTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 poin"/>
+            <TextView
+                style="@style/TextInSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buat akun dan login untuk kali pertama"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                style="@style/Klaim"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="60dp"
+                android:textSize="@dimen/text_default"
+                android:layout_height="35dp"
+                android:text="KLAIM"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_gravity="bottom"
+        android:background="@color/icon"
+        android:orientation="vertical"/>
+</RelativeLayout>

@@ -36,7 +36,16 @@
         <activity android:name=".Pages.InfoDaruratPhoto" />
         <activity android:name=".Pages.InfoDaruratVideo" />
         <activity android:name=".Pages.InfoDaruratTelp" />
-        <activity android:name=".Adapter.DaruratTelpAdapter"></activity>
+        <activity android:name=".Adapter.DaruratTelpAdapter" />
+        <activity android:name=".Adapter.PerjalananRiwayatAdapter" />
+        <activity android:name=".Pages.InfoPoinPage" />
+        <activity android:name=".Fragment.PanduanPoin" />
+        <activity android:name=".Adapter.PanduanSaranAdapter" />
+        <activity android:name=".Adapter.PanduanPoinAdapter" />
+        <activity android:name=".Fragment.Pencapaian" />
+        <activity android:name=".Fragment.LevelTravel" />
+        <activity android:name=".Adapter.PencapaianAdapter" />
+        <activity android:name=".Adapter.LevelTravelAdapter"></activity>
     </application>
 
 </manifest>
